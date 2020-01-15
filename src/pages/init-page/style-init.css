@@ -1,0 +1,34 @@
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    width: 350px;
+    height: 280px;
+    margin: 5% 5% 40% 40%;
+    border-top: 5px solid #435757;
+    background-color: rgba(255, 255, 255, .2);
+    box-shadow: 10px 10px 0 0px rgba(0, 0, 0, .1);
+    user-select: none;
+    opacity: 0.9;
+}
+
+.card h1 {
+    display: flex;
+    text-align: center;
+    margin: 0;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, .4);
+    text-align: center;
+    font-size: large;
+    color: #fff;
+}
+
+@media (min-width: 320px) and (max-width: 800px) {
+    .card {
+        margin: 40% auto;
+        width: 90%;
+        height: 250px;
+    }
+}

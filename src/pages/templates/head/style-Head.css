@@ -1,0 +1,121 @@
+:root {
+    --font-opt1: #303030;
+    --background-opt0: #ffffff;
+    --background-opt1: #DC3545;
+    --background-opt2: #707070;
+  }
+
+header {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100px;
+    justify-content: space-around;
+    align-items: center;
+    background: transparent;
+    margin-bottom: 5%;
+  }
+
+  header nav img#imgH {
+    display: block;
+    align-content: center;
+    align-items: center;
+    width: 50% !important;
+  }
+  
+  nav {
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+  }
+  
+  nav li {
+    padding-bottom: 0px;
+  }
+  
+  nav ul {
+    min-width: 60vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  nav ul {
+    list-style-type: none;
+  }
+  
+  .right {
+    float: right;
+    margin-left: 70%;
+  }
+
+  nav a:hover {
+    color: #000000;
+    text-decoration: underline;
+    text-decoration: none;
+  }
+  
+  nav li {
+    list-style: none;
+  }
+  
+  nav a {
+    color: var(--background-opt0);
+    text-decoration: none;
+  }
+  
+  .menu {
+    display: flex;
+    align-items: center;
+  }
+
+  .menu li {
+    font-size: 16px;
+    padding: 15px 5px;
+    white-space: nowrap;
+  }
+  
+  div.navM {
+    padding-bottom: 1%;
+    padding-top: 1%;
+    margin-bottom: 10%;
+  }
+  
+  .navM .material-icons {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    font-size: 40px;
+  }
+
+  @media only screen and (max-width: 455px){
+    header {
+      display: flex;
+      flex-direction: row;
+      height: 140px;
+      width: 100%;
+      margin: 0;
+    }
+    nav { 
+      display: flex;
+      flex-direction: row;
+      max-width: 100%;
+      width: 100%;
+    }
+    .menu {
+      display: flex;
+      flex-direction: row;
+      flex-grow: initial;
+    }
+    .right {
+      display: flex;
+      flex-direction: row;
+      float: none;
+      margin: 0;
+    }
+}
