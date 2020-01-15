@@ -8,7 +8,7 @@ import './style-init.css';
   
 export default function InitPg () {
     const [config,setConfig] = useState([]);
-    const APIKEY = 'f16e6aca0cb0f3d37c07b503b9f6b1ba';
+    const APIKEY = 'URKEY';
 
     async function fetchData(e) {
         const city = e.target.elements.city.value;
